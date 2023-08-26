@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title></title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="/static/index.css">
+    <script type="text/javascript">
+      function navToggle() {
+        var ue = document.querySelectorAll('nav>ul');
+        ue[0].classList.toggle('navhide');
+        ue[1].classList.toggle('navhide')
+      }
+    </script>
+  </head>
+  <body>
+    <div class="ax-disp backcenterblock">
+      <nav class="ax-disp top">
+        <img src="/static/image/logo.png">
+        <input class="ax-disp l-none" type="image" src="/static/image/nav.svg" onclick="navToggle()" ontouch="navToggle()">
+        <ul class="ax-disp flexbox dv l-dh menu left navhide">
+          <li><a href="/">HOME</a></li>
+          <li onclick="">
+            <p>SERVICES</p>
+            <ul class="sub-menu">
+              <li><a href="/classes">CLASSES</a></li>
+              <li><a href="/workshops">WORKSHOPS</a></li>
+              <li><a href="/painting">POTTERY PAINTING</a></li>
+            </ul>
+          </li>
+        </ul>
+        <ul class="ax-disp flexbox dv l-dh menu right navhide">
+          <li><a href="/shop">SHOP</a></li>
+          <li><a href="/portfolio">PORTFOLIO</a></li>
+          <li><a href="/contact">CONTACT</a></li>
+        </ul>
+      </nav>
+      <img class="ax-disp mgn64-b brd-r10p-bottom" src="/static/image/banner1.png">
+      <div class="ax-disp pad8 mgn64-b flexbox dv m-dh ac jsa">
+        <img class="ax-disp m-wid40" src="/static/image/ck22.jpg" alt="">
+        <div class="ax-disp mgn8">
+          <div class="ax-disp phrase home">
+            <div class="ax-disp">
+              <p>Never allow your fears<br>to silence your dreams<br>of creating something<br>unfathomable</p>
+            </div>
+            <div class="shifted-block">
+            </div>
+          </div>
+        </div>
+      </div>
+      <h2 class="ax-disp mgn0 mgn8-b wid-full txa-c">OUR STORY</h2>
+      <h3 class="ax-disp mgn0 mgn16-b wid-full txa-c">This is a story of hope, faith and dreams</h3>
+      <p class="ax-disp pad8-lr s-pad16-lr m-pad64-lr l-pad128-lr tlh1p5">
+        My journey began in 2009 when I started teaching
+        and creating my own ceramics full time. (Ecclesiastes 9:7)
+        Coming from an artist filled family I claimed my spot as being a potter,
+        teacher and business woman through grace. This is my passion.
+        The people, the clay and the endless possibilities…
+        Ck-ramics Pottery started off small and as years progressed
+        so our seats filled with more students and our studio was recommended
+        to host group activities by more & more companies.
+        It hasn’t always been easy, I have faced many challenges,
+        but we persevered and always looked up.
+        In 2017 we opened our first shop & Pottery Painting Studio in Bellville.
+        We are hoping to expand in 2018 and beyond.
+        I am dreaming of new adventures!
+      </p>
+    </div>
+    <div class="ax-disp footer flexbox dv m-dh m-ac jsb">
+      <div class="ax-disp flexbox ac">
+        <img src="/static/image/phone1.svg">
+        <p>060 782 7690</p>
+      </div>
+      <div class="ax-disp flexbox ac">
+        <img src="/static/image/email.svg">
+        <p>info@ck-ramics.co.za</p>
+      </div>
+      <div class="ax-disp flexbox ac">
+        <a href="https://www.facebook.com/CkRamics/"><img src="/static/image/facebook.svg"></a>
+      </div>
+    </div>
+  </body>
+</html>
